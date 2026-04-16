@@ -1,0 +1,16 @@
+Nomenclature des images à déposer dans ce dossier :
+
+  accueil_image1.jpg    → Image de la page d'accueil
+
+  partie1_image1.jpg    → Partie 1, image 1 (gauche)
+  partie1_image2.jpg    → Partie 1, image 2 (droite)
+
+  partie2_image1.jpg    → Partie 2, image 1 (gauche)
+  partie2_image2.jpg    → Partie 2, image 2 (droite)
+
+  partie3_image1.jpg    → Partie 3, image 1 (gauche)
+  partie3_image2.jpg    → Partie 3, image 2 (droite)
+
+  fin_image1.jpg        → Image de la page de fin
+
+Formats acceptés : .jpg, .jpeg, .png, .webp
