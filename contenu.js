@@ -15,6 +15,26 @@ var contenu = {
     "titre": "Partie 3 – La culture et les traditions",
     "texte": "Les habitants de Tahiti s'appellent les Tahitiens. Ils parlent le français et le tahitien. Leur culture est très riche : ils pratiquent des danses traditionnelles comme le tamouré, et fabriquent des colliers de fleurs appelés « lei ». La musique avec le ukulélé est très importante. Les Tahitiens sont connus pour leur accueil chaleureux et leur mot de bienvenue : « Ia Orana ! »"
   },
+  "quiz": {
+    "titre": "Quiz – As-tu bien retenu ?",
+    "questions": [
+      {
+        "question": "Comment s'appelle la capitale de Tahiti ?",
+        "choix": ["Moorea", "Papeete", "Bora Bora"],
+        "reponse": 1
+      },
+      {
+        "question": "Quelle est la fleur emblème de Tahiti ?",
+        "choix": ["La rose", "Le tiaré", "L'orchidée"],
+        "reponse": 1
+      },
+      {
+        "question": "Comment dit-on « bonjour » en tahitien ?",
+        "choix": ["Aloha", "Ia Orana", "Maeva"],
+        "reponse": 1
+      }
+    ]
+  },
   "fin": {
     "titre": "Merci !",
     "credits": "Sources : Wikipédia, Encyclopédie Vikidia, Office du tourisme de Tahiti.\nImages : à compléter avec vos propres sources.\nExposé réalisé par : Antoine Pécheux"

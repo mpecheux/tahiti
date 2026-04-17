@@ -154,6 +154,67 @@ h2 {
   flex: 1;
 }
 
+/* === Quiz === */
+.quiz-question {
+  background: #e0f2f1;
+  border-radius: 14px;
+  padding: 16px 22px;
+  margin: 12px 0;
+}
+
+.quiz-question-text {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #00796b;
+  margin-bottom: 10px;
+}
+
+.quiz-choix {
+  display: block;
+  width: 100%;
+  padding: 12px 18px;
+  margin: 6px 0;
+  font-size: 1.05rem;
+  border: 2px solid #b2dfdb;
+  border-radius: 10px;
+  background: white;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.quiz-choix:hover {
+  background: #e8f5e9;
+  border-color: #4db6ac;
+}
+
+.quiz-correct {
+  background: #c8e6c9 !important;
+  border-color: #388e3c !important;
+  font-weight: bold;
+}
+
+.quiz-faux {
+  background: #ffcdd2 !important;
+  border-color: #d32f2f !important;
+}
+
+.quiz-resultat {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #00796b;
+  padding: 16px;
+  margin: 16px 0 0;
+  border-radius: 14px;
+  background: #e8f5e9;
+}
+
+.quiz-parfait {
+  background: #fff9c4;
+  color: #f57f17;
+}
+
 /* === Accueil specific === */
 .accueil-nav {
   display: flex;
