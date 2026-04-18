@@ -5,7 +5,7 @@ var contenu = {
   },
   "partie1": {
     "titre": "Partie 1 – Où se trouve Tahiti ?",
-    "texte": "Tahiti est une île de l’archipel de la société qui fait partie des 5 archipels de la Polynésie Française. \n Tahiti est situé dans le sud de l’Océan Pacifique à environ 15000 km de la France. \n C’est l’île la plus grande et la plus peuplée de la Polynésie Française, sa surface est de 1042 km2 et sa population comporte 192760 habitants."
+    "texte": "Tahiti est une île de l’archipel de la société qui fait partie des 5 archipels de la Polynésie Française. \n Tahiti est situé dans le sud de l’Océan Pacifique à environ 15000 km de la France. \n C’est l’île la plus grande et la plus peuplée de la Polynésie Française, sa surface est de 1042 km2 et sa population comporte 192760 habitants. \n La capitale de Tahiti se nomme Papeete"
   },
   "partie2": {
     "titre": "Partie 2 – La nature et les paysages",
