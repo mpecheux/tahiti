@@ -1,3 +1,30 @@
+// Convertit le texte brut en HTML : \n => <br>, lignes "- xxx" => <ul><li>
+function formaterTexte(texte) {
+  var lignes = texte.split('\n');
+  var html = '';
+  var dansListe = false;
+
+  lignes.forEach(function(ligne) {
+    if (ligne.match(/^-[\s]/)) {
+      if (!dansListe) {
+        html += '<ul>';
+        dansListe = true;
+      }
+      html += '<li>' + ligne.replace(/^-\s*/, '') + '</li>';
+    } else {
+      if (dansListe) {
+        html += '</ul>';
+        dansListe = false;
+      }
+      if (html) html += '<br>';
+      html += ligne;
+    }
+  });
+
+  if (dansListe) html += '</ul>';
+  return html;
+}
+
 // Remplit la page avec le contenu défini dans contenu.js
 function chargerContenu() {
   const page = document.body.dataset.page;
@@ -15,7 +42,7 @@ function chargerContenu() {
 
   // Texte
   const texteEl = document.getElementById('texte');
-  if (texteEl && data.texte) texteEl.textContent = data.texte;
+  if (texteEl && data.texte) texteEl.innerHTML = formaterTexte(data.texte);
 
   // Crédits (page fin)
   const creditsEl = document.getElementById('credits');
