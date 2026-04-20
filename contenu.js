@@ -13,7 +13,7 @@ var contenu = {
   },
   "partie3": {
     "titre": "Partie 3 – La culture et les traditions",
-    "texte": "Les Tahitiens ont hérité de leurs ancêtres les Ma’ohi une culture et des traditions très riches : \n-	La musique et le chant à l’aide du Ukulele\n-	La danse traditionnelle qui s’appelle le Tamouré\n-	De nombreuse pratiques sportives comme le surf\nLes tahitiens parlent le Français et le Tahitien.\nIl sont connus pour leur accueil très chaleureux, leur mot de bienvenu est : Ia Orana."
+    "texte": "Les Tahitiens ont hérité de leurs ancêtres les Ma’ohi une culture et des traditions très riches : \n-	La musique et le chant à l’aide du Ukulele\n-	La danse traditionnelle qui s’appelle le Tamouré\n-	De nombreuse pratiques sportives comme le surf\nLes tahitiens parlent le Français et le Tahitien.\nIls sont connus pour leur accueil très chaleureux, leur mot de bienvenu est : Ia Orana."
   },
   "quiz": {
     "titre": "Quiz – As-tu bien retenu ?",
